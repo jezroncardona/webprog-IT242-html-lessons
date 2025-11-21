@@ -13,3 +13,18 @@ h1 {
     border-radius: 10px;
     margin: 10px;
 }
+
+h4 {
+    font-size: 16px;
+}
+
+h5 {
+    font-size: 12px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+p {
+    margin-left: 10px;
+    font-size: 12px;
+}
