@@ -1,8 +1,14 @@
 body {
     background-color: #ADD8E6;
+    font-family: Arial;
+    margin: 50px;
 }
 
 h1 {
     color: #000080;
-    margin-left: 20px;
+    font-family: Arial;
+    font-style: italic;
+    border-width: 1px;
+    border-color: #1f3b4d;
+    border-radius: 10px;
 }
