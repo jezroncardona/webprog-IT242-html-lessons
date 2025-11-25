@@ -1,8 +1,6 @@
 .container {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap; 
-  background-color: #000080;
+  flex-flow: row wrap; 
 }
 
 .container div {
@@ -25,6 +23,7 @@ h1 {
     border-width: 5px;
     border-color: #1f3b4d;
     border-radius: 10px;
+    text-align: center;
     margin: 10px;
 }
 
@@ -41,19 +40,4 @@ h5 {
 p {
     margin-left: 10px;
     font-size: 12px;
-}
-
-.container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap; 
-  background-color: #000080;
-}
-
-.container div {
-  background-color: #ffffff;
-  margin: 10px;
-  padding: 10px;
-  text-align: center;  
-  font-size: 10px;
 }
