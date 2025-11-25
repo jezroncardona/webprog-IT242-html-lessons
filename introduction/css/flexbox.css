@@ -1,9 +1,6 @@
 .container {
   display: flex;
-  height: 400px;
-  flex-wrap: wrap;
-  align-content: center;
-  overflow: scroll;  
+  flex-wrap: wrap; 
   background-color: DodgerBlue;
 }
 
