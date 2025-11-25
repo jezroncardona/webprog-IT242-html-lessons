@@ -1,13 +1,12 @@
 .container {
-  display: flex;
-  flex-flow: column wrap; 
+  display: flex; 
 }
 
 .container div {
   background-color: #ffffff;
   margin: 10px;
   padding: 10px;
-  width: 50%;
+  flex: 50%;
 }
 
 body {
