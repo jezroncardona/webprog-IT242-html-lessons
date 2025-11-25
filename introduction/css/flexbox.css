@@ -7,7 +7,7 @@
   background-color: #ffffff;
   margin: 10px;
   padding: 10px;
-  font-size: 10px;
+  flex: 50%;
 }
 
 body {
@@ -28,16 +28,16 @@ h1 {
 }
 
 h4 {
-    font-size: 16px;
+    font-size: 25px;
 }
 
 h5 {
-    font-size: 12px;
+    font-size: 20px;
     margin-bottom: 0px;
     margin-top: 0px;
 }
 
 p {
-    margin-left: 10px;
+    margin-left: 15px;
     font-size: 12px;
 }
