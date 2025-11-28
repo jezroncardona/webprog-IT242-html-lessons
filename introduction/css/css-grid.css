@@ -4,7 +4,6 @@
 
 .container {
     display: grid;
-    grid-template-columns: repeat(12, [col-start] 1fr);
     gap: 10px;
 }
 
@@ -24,8 +23,23 @@
 */
 
 .header {
-    grid-row: 0;
-    grid-column: col-start /span 12;
+    grid-area: header;
+    grid-row: 1;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.content {
+    grid-area: content;
+    grid-row: 2;
+}
+
+.picture-gallery {
+    grid-row: 2;
+}
+
+.latest-news {
+    grid-row: 2;
 }
 
 body {
