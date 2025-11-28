@@ -31,7 +31,6 @@
 }
 
 .content {
-    grid-area: content;
     grid-row: 2;
 }
 
