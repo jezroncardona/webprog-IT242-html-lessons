@@ -4,7 +4,7 @@
 
 .container {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 200 200 auto;
     gap: 10px;
 }
 
@@ -30,17 +30,32 @@
     grid-column-end: 4;
 }
 
-.content {
-    grid-row: 2;
+    .content {
+        grid-row: 2;
+    }
+
+    .picture-gallery {
+        grid-row: 2;
+    }
+
+    .latest-news {
+        grid-row: 3;
+    }
+
+@media (max-width: 768px) {
+    .content {
+        grid-row: 2;
+    }
+
+    .picture-gallery {
+        grid-row: 3;
+    }
+
+    .latest-news {
+        grid-row: 4;
+    }
 }
 
-.picture-gallery {
-    grid-row: 2;
-}
-
-.latest-news {
-    grid-row: 2;
-}
 
 body {
     background-color: #ADD8E6;
