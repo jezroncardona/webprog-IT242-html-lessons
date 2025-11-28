@@ -15,6 +15,11 @@
     grid-column: col-start/span 12;
 }
 
+.header {
+    grid-row: 0;
+    grid-column: col-start /span 12;
+}
+
 body {
     background-color: #ADD8E6;
     font-family: Arial;
