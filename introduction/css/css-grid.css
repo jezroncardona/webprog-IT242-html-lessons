@@ -8,12 +8,20 @@
     gap: 10px;
 }
 
+.container div {
+    border: 1px solid black;
+    background-color: white;
+    padding: 10px;
+}
+
+/*
 .container > * {
     border: 1px solid black;
     background-color: white;
     padding: 10px;
     grid-column: col-start/span 12;
 }
+*/
 
 .header {
     grid-row: 0;
