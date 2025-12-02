@@ -4,16 +4,6 @@ body {
     margin: 50px;
 }
 
-h1 {
-    color: #000080;
-    font-family: Arial;
-    font-style: italic;
-    border-width: 5px;
-    border-color: #1f3b4d;
-    border-radius: 10px;
-    margin: 10px;
-}
-
 h4 {
     font-size: 16px;
 }
@@ -32,5 +22,16 @@ p {
 .header {
     background-color: #e6667f;
     width: 100vw;
-    height: 60px
+    height: 60px;
+    text-align: center;
+}
+
+.header > h1 {
+    color: #000080;
+    font-family: Arial;
+    font-style: italic;
+    border-width: 5px;
+    border-color: #1f3b4d;
+    border-radius: 10px;
+    margin: 10px;
 }
