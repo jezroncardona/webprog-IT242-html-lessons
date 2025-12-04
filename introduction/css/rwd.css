@@ -17,12 +17,14 @@ h5 {
 p {
     margin-left: 10px;
     font-size: 12px;
+    white-space: pre-wrap;
 }
 
 pre {
     font-family: Arial;
     font-size: 12px;
     margin-left: 10px;
+    margin-bottom: 0px;
 }
 
 .header {
