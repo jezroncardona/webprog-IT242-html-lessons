@@ -71,3 +71,9 @@ p {
     border-color: #000000;
     background-color: #ffffff;
 }
+
+@media (max-width: 600px){
+    .photos_div, .details_div {
+        flex-direction: column;
+    }
+}
