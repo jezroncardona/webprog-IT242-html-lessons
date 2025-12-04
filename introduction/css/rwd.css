@@ -19,9 +19,10 @@ p {
     font-size: 12px;
 }
 
-p > pre {
+pre {
     font-family: Arial;
     font-size: 12px;
+    margin-left: 10px;
 }
 
 .header {
@@ -47,6 +48,7 @@ p > pre {
 
 .details_div {
     display: flex;
+    width: 100%
 }
 
 .div-one, .div-two {
