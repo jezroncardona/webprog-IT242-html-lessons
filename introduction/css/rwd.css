@@ -19,8 +19,9 @@ p {
     font-size: 12px;
 }
 
-.text {
+p > pre {
     font-family: Arial;
+    font-size: 12px;
 }
 
 .header {
