@@ -44,7 +44,7 @@ p {
     display: flex;
 }
 
-.div-one .div-two {
+.div-one, .div-two {
     flex: 1;
     margin: 10px 10px 10px 10px;
     padding: 10px 10px 10px 10px;
