@@ -19,6 +19,10 @@ p {
     font-size: 12px;
 }
 
+.text {
+    font-family: Arial;
+}
+
 .header {
     background-color: #e6667f;
     width: 100vw;
