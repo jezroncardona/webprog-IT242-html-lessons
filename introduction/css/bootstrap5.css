@@ -47,17 +47,6 @@ p {
 }
 
 .div-one {
-    flex: 1;
-    margin: 10px 10px 10px 10px;
-    padding: 10px 10px 10px 10px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #000000;
-    background-color: #ffffff;
-}
-
-.div-two {
-    flex: 1;
     margin: 10px 10px 10px 10px;
     padding: 10px 10px 10px 10px;
     border-style: solid;
