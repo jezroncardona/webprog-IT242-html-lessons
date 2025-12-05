@@ -40,12 +40,6 @@ p {
     padding-top: 70px;
 }
 
-.details_div {
-    display: flex;
-    flex-direction: row;
-    width: 100%
-}
-
 .div-one {
     margin: 10px 10px 10px 10px;
     padding: 10px 10px 10px 10px;
@@ -54,23 +48,6 @@ p {
     border-color: #000000;
     background-color: #ffffff;
 }
-
-.photos_div {
-    display: flex;
-    flex-direction: row;
-    width: 100;
-}
-
-.div-three, .div-four, .div-five {
-    flex: 1;
-    margin: 10px 10px 10px 10px;
-    padding: 10px 10px 10px 10px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #000000;
-    background-color: #ffffff;
-}
-
 @media (max-width: 600px){
     .photos_div, .details_div {
         flex-direction: column;
