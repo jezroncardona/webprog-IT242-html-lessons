@@ -5,26 +5,26 @@ body {
 }
 
 .container-fluid > h4 {
-    font-size: 16px;
+    font-size: 16px !important;
 }
 
 .container-fluid > h5 {
-    font-size: 12px;
+    font-size: 12px !important;
     margin-bottom: 0px;
     margin-top: 0px;
 }
 
 .container-fluid > p {
     margin-left: 10px;
-    font-size: 12px;
+    font-size: 12px !important;
 }
 
 .container-fluid > ul {
-    font-size: 12px;
+    font-size: 10px !important;
 }
 
 .container-fluid > li {
-    font-size: 12px;
+    font-size: 10px !important;
 }
 
 .header {
