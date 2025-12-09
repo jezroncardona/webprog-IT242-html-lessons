@@ -48,6 +48,18 @@ body {
     padding-top: 70px;
 }
 
+.carousel_container {
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.carousel_container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 .div-one {
     margin: 10px 10px 10px 10px;
     padding: 10px 10px 10px 10px;
