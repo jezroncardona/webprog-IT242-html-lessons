@@ -13,7 +13,7 @@ body {
     top: 0;
 }
 
-.header > h1 {
+.header h1 {
     color: #ffffff;
     font-family: Arial;
     font-style: italic;
@@ -25,17 +25,17 @@ body {
     padding-top: 70px;
 }
 
-.body_div > h4 {
+.body_div h4 {
     font-size: 16px;
 }
 
-.body_div > h5 {
+.body_div h5 {
     font-size: 12px;
     margin-bottom: 0px;
     margin-top: 0px;
 }
 
-.body_div > p {
+.body_div p {
     margin-left: 10px;
     font-size: 12px;
 }
