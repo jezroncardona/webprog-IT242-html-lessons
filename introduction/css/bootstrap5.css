@@ -4,17 +4,17 @@ body {
     margin: 0px;
 }
 
-.container-fluid h4 {
+.container-fluid > h4 {
     font-size: 16px;
 }
 
-.container-fluid h5 {
+.container-fluid > h5 {
     font-size: 12px;
     margin-bottom: 0px;
     margin-top: 0px;
 }
 
-.container-fluid p {
+.container-fluid > p {
     margin-left: 10px;
     font-size: 12px;
 }
@@ -28,7 +28,7 @@ body {
     top: 0;
 }
 
-.header h1 {
+.header > h1 {
     color: #ffffff;
     font-family: Arial;
     font-style: italic;
