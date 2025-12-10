@@ -8,22 +8,22 @@ body {
     font-size: 16px;
 }
 
-.body_div .container-fluid > h5 {
+.body_div .container-fluid h5 {
     font-size: 12px;
     margin-bottom: 0px;
     margin-top: 0px;
 }
 
-.body_div .container-fluid > p {
+.body_div .container-fluid p {
     margin-left: 10px;
     font-size: 12px;
 }
 
-.body_div .container-fluid > ul {
+.body_div .container-fluid ul {
     font-size: 10px;
 }
 
-.body_div .container-fluid > li {
+.body_div .container-fluid li {
     font-size: 10px;
 }
 
@@ -36,7 +36,7 @@ body {
     top: 0;
 }
 
-.header > h1 {
+.header h1 {
     color: #ffffff;
     font-family: Arial;
     font-style: italic;
