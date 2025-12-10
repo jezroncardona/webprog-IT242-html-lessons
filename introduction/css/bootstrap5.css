@@ -52,13 +52,7 @@ body {
     margin: 10px;
 }
 
-.fixed-carousel {
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-}
-
-.fixed-carousel .carousel {
+#1stcarousel .carousel {
     position: absolute;
     top: 0;
     left: 0;
