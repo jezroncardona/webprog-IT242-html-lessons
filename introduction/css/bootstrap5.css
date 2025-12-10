@@ -95,8 +95,4 @@ body {
     .photos_div, .details_div {
         flex-direction: column;
     }
-    .gallery {
-        aspect-ratio: 16 /9;
-        width: 100%
-    }
 }
