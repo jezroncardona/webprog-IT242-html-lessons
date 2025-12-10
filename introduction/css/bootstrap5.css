@@ -54,6 +54,10 @@ body {
     overflow: hidden;
 }
 
+.fixed-carousel .carousel {
+    height: 100%
+}
+
 .fixed-carousel .carousel-inner {
     height: 100%
 }
