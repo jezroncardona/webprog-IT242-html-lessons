@@ -48,6 +48,10 @@ body {
     padding-top: 70px;
 }
 
+.gallery {
+    padding: 10px;
+}
+
 .fixed-carousel {
     width: 600px;
     height: 400px;
@@ -56,7 +60,6 @@ body {
 
 .fixed-carousel .carousel {
     height: 100%;
-    padding: 100px;
 }
 
 .fixed-carousel .carousel-inner {
