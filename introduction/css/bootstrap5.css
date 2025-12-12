@@ -65,10 +65,11 @@ body {
 }
 
 #1stcarousel .carousel-item {
-    height: 100%;
+    width: 100%;
     position: relative;
+    aspect-ratio: 16/9;
+    overflow: hidden;
 }
-
 
 #1stcarousel .carousel-item img {
     display: block;
