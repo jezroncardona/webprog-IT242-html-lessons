@@ -78,3 +78,9 @@ body {
     background-color: #522e29 !important;
     color: #FFFFFF !important;
 }
+
+.col-sm-6 {
+    border: solid;
+    border-width: 1px;
+    background-color: #FFFFF6;
+}
