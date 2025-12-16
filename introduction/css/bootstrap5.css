@@ -79,7 +79,7 @@ body {
     color: #FFFFFF !important;
 }
 
-.col-sm-6 {
+.card {
     border: solid;
     border-width: 1px;
     background-color: #FFFFF6;
