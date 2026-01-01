@@ -33,10 +33,15 @@ body {
     position: absolute;
     top: 0;
 
-    display: grid;
+    display: flex;
     grid-template-columns: auto auto auto;
 
     background-color: #c64151;
+    text-align: center;
+}
+
+.header div {
+    flex: 1;
     text-align: center;
 }
 
@@ -46,8 +51,14 @@ body {
 
 .header > .menu-container {
     text-align: left;
-
 }
+
+
+
+
+
+
+
 
 .body_div {
     margin: 10px;
