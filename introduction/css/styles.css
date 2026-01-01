@@ -52,9 +52,15 @@ body {
 
 .title {
     color: #ffffff;
-    font-size: 20px;
+    font-size: 60px;
     font-weight: 700;
     text-align: center;
+}
+
+.subtext {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 300;
 }
 
 .profile_div {
