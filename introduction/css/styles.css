@@ -111,6 +111,9 @@ body {
 
 .contacts_row {
     display: flex;
+
+    padding: 10px;
+
     justify-content: flex-start;
 }
 
