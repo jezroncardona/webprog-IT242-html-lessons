@@ -38,7 +38,7 @@ body {
 
 .menu-container img {
     height: 30px;
-    width: 40px;
+    width: 35px;
 
     filter: brightness(0) invert(1);
 }
@@ -52,9 +52,16 @@ body {
 
 .profile_div {
     display: flex;
-
-    
 }
+
+.side_items {
+    flex: 2;
+}
+
+.central_profile {
+    flex: 1;
+}
+
 
 /* To be reused */
 
