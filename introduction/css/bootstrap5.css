@@ -57,7 +57,10 @@ body {
 .side_items {
     flex: 1;
 
+    margin: 20px;
+
     color: #ffffff;
+    font-size: 12px;
 }
 
 .central_profile {
