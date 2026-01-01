@@ -29,12 +29,18 @@ body {
 }
 
 .header > .menu-container {
-    margin-left: 10px;
-    
+    margin-left: 20px;
+
     align-content: center;
     text-align: left;
 }
 
+.menu-container img {
+    height: 50px;
+    width: 50px;
+
+    filter: brightness(0) invert(1);
+}
 
 
 
