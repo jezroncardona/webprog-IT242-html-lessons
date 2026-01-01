@@ -50,6 +50,11 @@ body {
     padding-top: 70px;
 }
 
+.title {
+    font-size: 20px;
+    font-weight: 700;
+}
+
 .profile_div {
     display: flex;
 
