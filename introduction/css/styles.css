@@ -109,6 +109,16 @@ body {
     border-radius: 200px;
 }
 
+.contacts_row {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.contacts_logo {
+    width: 20px;
+    height: 20px;
+}
+
 
 /* To be reused */
 
