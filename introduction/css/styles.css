@@ -67,9 +67,7 @@ body {
     text-align: justify;
 }
 
-.side-items h6 {
-    margin: 0;
-
+.side-items > .title {
     font-size: 12px;
     text-align: justify;
 }
