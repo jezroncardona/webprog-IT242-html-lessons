@@ -1,7 +1,7 @@
 body {
-    width: 100vw;
     margin: 0px;
-
+    overflow-x: hidden;
+    
     background-color: #15151e;
     font-family: Arial;
 }
