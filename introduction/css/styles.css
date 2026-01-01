@@ -69,12 +69,13 @@ body {
 
 .side-items > .title {
     font-size: 12px;
+    font-weight: bold;
     text-align: justify;
 }
 
 .central_profile {
-    height: 200px;
-    width: 200px;
+    height: 400px;
+    width: 400px;
 
     padding: 20px;
 
