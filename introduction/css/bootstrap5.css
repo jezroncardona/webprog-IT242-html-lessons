@@ -1,11 +1,13 @@
 body {
     margin: 0px;
     overflow-x: hidden;
-    
+
     background-color: #15151e;
     font-family: Arial;
 }
 
+
+/* Header elements */
 .header {
     height: 60px;
     width: 100vw;
@@ -13,7 +15,6 @@ body {
     top: 0;
 
     display: flex;
-    grid-template-columns: auto auto auto;
 
     background-color: #c64151;
     text-align: center;
@@ -36,22 +37,27 @@ body {
 }
 
 .menu-container img {
-    height: 50px;
-    width: 50px;
+    height: 30px;
+    width: 40px;
 
     filter: brightness(0) invert(1);
 }
 
 
-
-
-
-
-
+/* Body elements */
 .body_div {
     margin: 10px;
     padding-top: 70px;
 }
+
+.profile_div {
+    display: flex;
+
+    
+}
+
+/* To be reused */
+
 
 .body_div .container-fluid h4 {
     font-size: 24px;
