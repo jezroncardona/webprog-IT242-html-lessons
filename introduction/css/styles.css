@@ -65,6 +65,12 @@ body {
     text-align: justify;
 }
 
+.side-items h6 {
+    font-weight: bold;
+    font-size: 12px;
+    text-align: justify;
+}
+
 .central_profile {
     height: 200px;
     width: 200px;
