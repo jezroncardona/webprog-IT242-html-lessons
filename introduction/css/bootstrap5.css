@@ -29,6 +29,9 @@ body {
 }
 
 .header > .menu-container {
+    margin-left: 10px;
+    
+    align-content: center;
     text-align: left;
 }
 
