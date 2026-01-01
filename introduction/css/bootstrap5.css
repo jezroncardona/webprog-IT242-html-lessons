@@ -1,5 +1,5 @@
 body {
-    background-color: #f1acba;
+    background-color: #15151e;
     font-family: Arial;
     margin: 0px;
 }
@@ -28,18 +28,14 @@ body {
 }
 
 .header {
-    background-color: #e94969;
+    height: 60px;
     width: 100vw;
     position: absolute;
     top: 0;
     padding: 10px;
-}
 
-.header h1 {
-    color: #ffffff;
-    font-family: Arial;
-    font-style: italic;
-    margin: 10px;
+    background-color: #c64151;
+    text-align: center;
 }
 
 .body_div {
