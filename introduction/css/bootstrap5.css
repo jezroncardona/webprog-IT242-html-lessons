@@ -33,13 +33,15 @@ body {
     position: absolute;
     top: 0;
 
+    display: grid;
+    grid-template-columns: auto auto auto;
+
     background-color: #c64151;
     text-align: center;
 }
 
-.header > .logo {
-    height: 60px;
-    width: 80px;
+.header > .logo-container {
+    text-align: center;
 }
 
 .header > .menu-container {
