@@ -134,14 +134,17 @@ hr {
 
 .body_div > .card {
     margin: 40px;
-    padding: 10px;
+    padding: 20px;
 
     border: solid;
     border-width: 2px;
     border-color: #5f5f69;
     color: #eee5e5;
     background-color: #15151e;
+}
 
+.card hr {
+    color: #5f5f69
 }
 
 
