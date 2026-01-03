@@ -155,8 +155,10 @@ hr {
     border-bottom-style: solid;
     border-width: 1px;
     border-color: #5f5f69;
-
     color: #eee5e5;
+    background-color: #15151e;
+    font-size: 16px;
+    font-weight: 700;
 }
 
 .accordion:after{
@@ -164,7 +166,6 @@ hr {
     float: right;
 
     color: #eee5e5;
-    font-weight: 700;
     content: '\2227';
 }
 
