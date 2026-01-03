@@ -199,6 +199,13 @@ h5 {
     transition: max-height 0.2s ease-out;
 }
 
+.card > .card {
+    background-color: #d46a83;
+    border-style: solid;
+    border-color: #c64151;
+    border-width: 1px;
+}
+
 /* To be reused */
 
 
