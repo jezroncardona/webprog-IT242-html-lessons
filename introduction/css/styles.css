@@ -52,6 +52,9 @@ hr {
 /* Body elements */
 .body_div {
     margin: 10px;
+}
+
+#top_section {
     padding-top: 70px;
 }
 
