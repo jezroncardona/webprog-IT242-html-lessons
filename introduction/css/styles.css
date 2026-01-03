@@ -193,6 +193,7 @@ h5 {
 }
 
 .panel {
+    margin-bottom: 5px;
     max-height: 0;
     overflow: hidden;
 
@@ -200,10 +201,17 @@ h5 {
 }
 
 .panel > .card {
+    margin-top: 5px;
+
     background-color: #d46a83;
     border-style: solid;
     border-color: #c64151;
     border-width: 1px;
+}
+
+.bg-color {
+    background-color: #522e29 !important;
+    color: #FFFFFF !important;
 }
 
 /* To be reused */
@@ -258,11 +266,6 @@ h5 {
     width: 100%;
     height: 100%;
     object-fit: cover;
-}
-
-.bg-color {
-    background-color: #522e29 !important;
-    color: #FFFFFF !important;
 }
 
 .image-rule {
