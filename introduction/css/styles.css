@@ -158,6 +158,8 @@ hr {
 .accordion {
     display: flex;
 
+    margin-top: 5px;
+
     align-items: center;
     justify-content: space-between;
 
