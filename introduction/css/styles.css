@@ -152,11 +152,11 @@ hr {
 }
 
 .accordion {
-    padding: 10px;
+    padding-left: 10px;
 
     outline: none;
     border-bottom-style: solid;
-    border-width: 1px;
+    border-width: 0px 0px 1px 0px;
     border-color: #5f5f69;
     color: #eee5e5;
     background-color: #15151e;
