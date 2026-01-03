@@ -96,6 +96,7 @@ hr {
 }
 
 .side_items > .title {
+    font-size: 20px;
     font-weight: 600;
     letter-spacing: 0.05em;
     line-height: 1.6;
