@@ -209,6 +209,10 @@ h5 {
     border-width: 1px;
 }
 
+.badge {
+    margin: 2px;
+}
+
 .bg-color {
     background-color: #522e29 !important;
     color: #FFFFFF !important;
