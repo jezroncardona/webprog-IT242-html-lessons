@@ -252,13 +252,6 @@ hr {
     color: #FFFFFF !important;
 }
 
-.card {
-    border: solid;
-    border-width: 1px;
-    background-color: #FFFFF6;
-    padding: 10px;
-}
-
 .image-rule {
     padding-top: 5px;
     width: 100%;
