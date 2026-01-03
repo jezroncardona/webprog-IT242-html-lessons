@@ -152,6 +152,9 @@ hr {
 }
 
 .accordion {
+    padding: 10px;
+
+    outline: none;
     border-bottom-style: solid;
     border-width: 1px;
     border-color: #5f5f69;
@@ -159,6 +162,7 @@ hr {
     background-color: #15151e;
     font-size: 16px;
     font-weight: 700;
+    text-align: left;
 }
 
 .accordion:after{
