@@ -34,6 +34,11 @@ hr {
     text-align: center;
 }
 
+.logo-container img {
+    height: 90px;
+    width: auto;
+}
+
 .header > .menu-container {
     margin-left: 20px;
 
@@ -153,7 +158,6 @@ hr {
 
 .accordion {
     display: flex;
-    padding-left: 10px;
 
     align-items: center;
     justify-content: space-between;
@@ -170,7 +174,7 @@ hr {
 }
 
 .accordion:after{
-    margin-left: 5px;
+    margin-right: 5px;
     float: right;
 
     color: #eee5e5;
@@ -182,8 +186,6 @@ hr {
 }
 
 .panel {
-    padding: 0 18px;
-
     max-height: 0;
     overflow: hidden;
 
