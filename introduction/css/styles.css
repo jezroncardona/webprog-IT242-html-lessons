@@ -16,11 +16,15 @@ hr {
 }
 
 h4 {
-    font-size: 30px;
+    font-size: 1.6rem;
     font-weight: 700;
 }
 
 h5 {
+    font-size: 1.3rem;
+}
+
+h6 {
     font-size: 1rem;
 }
 
@@ -47,7 +51,7 @@ h5 {
 }
 
 .logo-container img {
-    height: 90px;
+    height: 70px;
     width: auto;
 }
 
@@ -179,7 +183,7 @@ h5 {
 .accordion {
     display: flex;
 
-    margin-top: 5px;
+    margin-top: 10px;
 
     align-items: center;
     justify-content: space-between;
@@ -200,11 +204,11 @@ h5 {
     float: right;
 
     color: #eee5e5;
-    content: '\2227';
+    content: '\002B';
 }
 
 .active:after {
-    content: '\2228';
+    content: '\2212';
 }
 
 .panel {
@@ -223,6 +227,10 @@ h5 {
     border-style: solid;
     border-color: #c64151;
     border-width: 1px;
+}
+
+.panel > img {
+    width: 75%;
 }
 
 .badge {
