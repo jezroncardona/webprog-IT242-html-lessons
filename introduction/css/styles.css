@@ -1,3 +1,7 @@
+html {
+    font-size: 25px;
+}
+
 body {
     margin: 0px;
     overflow-x: hidden;
@@ -17,7 +21,7 @@ h4 {
 }
 
 h5 {
-    font-size: 25px;
+    font-size: 1rem;
 }
 
 
@@ -73,18 +77,18 @@ h5 {
 
 .title {
     color: #ffffff;
-    font-size: 60px;
+    font-size: 2.5rem;
     font-weight: 700;
     text-align: center;
 }
 
 .midtext {
-    font-size: 20px;
+    font-size: 0.8rem;
 }
 
 .subtext {
     color: #ffffff;
-    font-size: 18px;
+    font-size: 0.7rem;
     font-weight: 300;
 }
 
@@ -101,7 +105,7 @@ h5 {
     padding: 20px;
 
     color: #ffffff;
-    font-size: 25px;
+    font-size: 1rem;
     font-weight: 300;
     letter-spacing: 0.05em;
     line-height: 1.6;
@@ -109,7 +113,7 @@ h5 {
 }
 
 .side_items > .title {
-    font-size: 25px;
+    font-size: 1rem;
     font-weight: 600;
     letter-spacing: 0.05em;
     line-height: 1.6;
@@ -136,29 +140,6 @@ h5 {
     border-radius: 200px;
 }
 
-@media (max-width: 1100px) {
-    .profile_div {
-        flex-direction: column;
-    }
-
-    .central_profile {
-        order: 1;
-    }
-
-    .side_items {
-        width: 100%;
-    }
-
-    #details {
-        order: 2;
-    }
-
-    #paragraph {
-        order: 3;
-    }
-
-}
-
 
 .contacts_row {
     display: flex;
@@ -171,8 +152,8 @@ h5 {
 }
 
 .contacts_logo {
-    width: 25px;
-    height: 25px;
+    width: 1rem;
+    height: 1rem;
 }
 
 
@@ -186,7 +167,7 @@ h5 {
     color: #eee5e5;
     background-color: #15151e;
 
-    font-size: 25px;
+    font-size: 1rem;
 }
 
 .card hr {
@@ -252,6 +233,40 @@ h5 {
     background-color: #522e29 !important;
     color: #FFFFFF !important;
 }
+
+
+/* Mobile UI */
+@media (max-width: 1100px) {
+    .html {
+        font-size: 16px;
+    }
+    .profile_div {
+        flex-direction: column;
+    }
+
+    .central_profile {
+        order: 1;
+    }
+
+    .side_items {
+        width: 100%;
+    }
+
+    #details {
+        order: 2;
+    }
+
+    #paragraph {
+        order: 3;
+    }
+
+}
+
+
+
+
+
+
 
 /* To be reused */
 
