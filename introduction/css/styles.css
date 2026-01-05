@@ -11,6 +11,11 @@ hr {
     color: #5f5f69;
 }
 
+h4 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
 h5 {
     font-size: 25px;
 }
