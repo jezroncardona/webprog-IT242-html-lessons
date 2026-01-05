@@ -221,7 +221,17 @@ h6 {
     border-width: 1px;
 }
 
-.panel > img {
+.collapse {
+    height: 0;
+    transition: height 0.35s ease;
+    overflow: hidden;
+}
+
+.collapse.show {
+    height: auto;
+}
+
+.collapse > img {
     width: 75%;
 }
 
