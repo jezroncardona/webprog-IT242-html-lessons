@@ -281,13 +281,13 @@ h6 {
     margin-top: 20px;
 }
 
-#1stcarousel {
+#first_carousel {
     aspect-ratio: 16/9;
     width: 100%;
     height: 100%;
 }
 
-#1stcarousel .carousel-inner {
+#first_carousel .carousel-inner {
     height: 100%;
 }
 
