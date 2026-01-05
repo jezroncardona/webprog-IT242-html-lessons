@@ -151,7 +151,7 @@ h5 {
 }
 
 
-.body_div > .card {
+#more_details > .card {
     margin: 40px;
     padding: 20px;
 
