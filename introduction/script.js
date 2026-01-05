@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 function updateParentPanelHeight(toggledAccordion) {
     // Check if the clicked accordion is INSIDE another panel
-    let parentPanel = toggledAccordion.closest('.parent-panel');
+    let parentPanel = toggledAccordion.closest('.parent_panel');
     
     // Safety check: Is there a panel ancestor?
     if (parentPanel) {
