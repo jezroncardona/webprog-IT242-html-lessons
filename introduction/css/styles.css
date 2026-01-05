@@ -116,6 +116,7 @@ h5 {
     text-align: justify;
 }
 
+
 .central_profile {
     height: 400px;
     width: 400px;
@@ -134,6 +135,31 @@ h5 {
     object-fit: cover;
     border-radius: 200px;
 }
+
+@media (max-width: 1100px) {
+    .profile_div {
+        flex-direction: column;
+    }
+
+    .central_profile {
+        width: 100%;
+        order: 1;
+    }
+
+    .side_items {
+        width: 100%;
+    }
+
+    #details {
+        order: 2;
+    }
+
+    #paragraph {
+        order: 3;
+    }
+
+}
+
 
 .contacts_row {
     display: flex;
