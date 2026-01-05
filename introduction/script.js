@@ -34,10 +34,10 @@ function updateParentPanelHeight(toggledAccordion) {
 
         if (controllingAccordion && controllingAccordion.classList.contains('active')) {
             // The parent panel is currently open. We MUST recalculate its height.
-            
-            // Note: The parent panel's scrollHeight property now includes 
-            // the newly opened child content.
-            parentPanel.style.maxHeight = parentPanel.scrollHeight + "px";
+            setTimeout(() => {
+                parentPanel.style.maxHeight = parentPanel.scrollHeight + "px";
+                updateParentPanelHeight(controllingAccordion);
+            }, 50);
         }
     }
     // You may need to recursively check for multiple levels of nesting.
