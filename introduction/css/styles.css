@@ -211,11 +211,7 @@ h6 {
     content: '\2212';
 }
 
-.panel {
-    margin-bottom: 5px;
-}
-
-.panel > .card {
+.collapse > .card {
     margin-top: 5px;
     padding: 10px;
 
