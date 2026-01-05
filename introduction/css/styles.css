@@ -211,7 +211,15 @@ h6 {
     content: '\2212';
 }
 
-.collapse > .card {
+.panel {
+    margin-bottom: 5px;
+    max-height: 0;
+    overflow: hidden;
+
+    transition: max-height 0.2s ease-out;
+}
+
+.panel > .card {
     margin-top: 5px;
     padding: 10px;
 
@@ -221,18 +229,8 @@ h6 {
     border-width: 1px;
 }
 
-.collapse {
-    height: 0;
-    transition: height 0.35s ease;
-    overflow: hidden;
-}
-
-.collapse.show {
-    height: auto;
-}
-
-.collapse > img {
-    width: 75%;
+.card > img {
+    width: 60%;
 }
 
 .badge {
