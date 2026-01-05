@@ -237,7 +237,7 @@ h5 {
 
 /* Mobile UI */
 @media (max-width: 1100px) {
-    .html {
+    html {
         font-size: 16px;
     }
     .profile_div {
