@@ -1,0 +1,313 @@
+html {
+    font-size: 20px;
+}
+
+body {
+    margin: 0px;
+    overflow-x: hidden;
+
+    background-color: #15151e;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+hr {
+    margin: 30px;
+    color: #5f5f69;
+}
+
+h4 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+h5 {
+    font-size: 1.3rem;
+    color: #ffffff;
+}
+
+h6 {
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+
+/* Header elements */
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    display: flex;
+
+    background-color: #c64151;
+    text-align: center;
+}
+
+.header div {
+    flex: 1;
+    text-align: center;
+}
+
+.header > .logo-container {
+    text-align: center;
+}
+
+.logo-container img {
+    height: 70px;
+    width: auto;
+}
+
+.header > .menu-container {
+    margin-left: 20px;
+
+    align-content: center;
+    text-align: left;
+}
+
+.menu-container img {
+    height: 30px;
+    width: 35px;
+
+    filter: brightness(0) invert(1);
+}
+
+
+/* Body elements */
+.body_div {
+    margin: 10px;
+}
+
+#top_section {
+    padding-top: 70px;
+}
+
+.title {
+    color: #ffffff;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.midtext {
+    font-size: 0.8rem;
+}
+
+.subtext {
+    color: #ffffff;
+    font-size: 0.7rem;
+    font-weight: 300;
+}
+
+.profile_div {
+    display: flex;
+
+    align-items: center;
+}
+
+.side_items {
+    flex: 1;
+
+    margin: 20px;
+    padding: 20px;
+
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.side_items > .title {
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+
+.central_profile {
+    height: 400px;
+    width: 400px;
+
+    padding: 20px;
+
+    align-content: center;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+}
+
+.central_profile img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    border-radius: 200px;
+}
+
+
+.contacts_row {
+    display: flex;
+
+    justify-content: flex-start;
+}
+
+.contacts_row div {
+    padding: 10px;
+}
+
+.contacts_logo {
+    width: 1rem;
+    height: 1rem;
+}
+
+
+.col-md-6 > .card {
+    margin: 40px;
+    padding: 20px;
+
+    border: solid;
+    border-width: 2px;
+    border-color: #5f5f69;
+    color: #eee5e5;
+    background-color: #15151e;
+
+    font-size: 1rem;
+}
+
+.card > hr {
+    margin: 0px;
+
+    height: 1px;
+    color: #5f5f69
+}
+
+.accordion {
+    display: flex;
+
+    margin-top: 10px;
+
+    align-items: center;
+    justify-content: space-between;
+
+    outline: none;
+    border-bottom-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: #5f5f69;
+    color: #eee5e5;
+    background-color: #15151e;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.accordion:after{
+    margin-right: 5px;
+    float: right;
+
+    color: #eee5e5;
+    content: '\002B';
+}
+
+.active:after {
+    content: '\2212';
+}
+
+.panel {
+    margin-bottom: 5px;
+    padding-top: 5px;
+    max-height: 0;
+    overflow: hidden;
+
+    transition: max-height 0.2s ease-out;
+}
+
+.panel > .card {
+    margin-top: 5px;
+    padding: 10px;
+
+    background-color: #d46a83;
+    border-style: solid;
+    border-color: #c64151;
+    border-width: 1px;
+}
+
+.card > img {
+    margin-top: 10px;
+    width: 60%;
+}
+
+.badge {
+    margin: 2px;
+}
+
+.bg-color {
+    background-color: #522e29 !important;
+    color: #FFFFFF !important;
+}
+
+#gallery {
+    margin: 40px;
+}
+
+.gallery {
+    margin-top: 20px;
+}
+
+#first_carousel {
+    aspect-ratio: 16/9;
+    width: 100%;
+    height: 100%;
+}
+
+#first_carousel .carousel-inner {
+    height: 100%;
+}
+
+.cropped-frame {
+    width: 100%;
+    aspect-ratio: 16/9;
+    overflow: hidden;
+}
+
+.cropped-frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Mobile UI */
+@media (max-width: 1100px) {
+    html {
+        font-size: 16px;
+    }
+    .profile_div {
+        flex-direction: column;
+    }
+
+    .central_profile {
+        order: 1;
+    }
+
+    .side_items {
+        width: 100%;
+    }
+
+    #details {
+        order: 2;
+    }
+
+    #paragraph {
+        order: 3;
+    }
+
+    .col-md-6 > .card {
+        margin: 20px;
+    }
+
+    #gallery {
+        margin: 20px;
+    }
+}
